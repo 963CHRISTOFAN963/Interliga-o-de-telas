@@ -17,5 +17,5 @@ public class MainActivity extends AppCompatActivity {
     }
     public void proximaTela(View view){
 
-        Intent intent = new Intent(this, segundaactivity.class);
+        Intent intent = new Intent(this, segundactivity.class);
         startActivity(intent);
