@@ -11,9 +11,9 @@ public class primeiratela extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_segundatela);
+        setContentView(R.layout.activity_primeiratela);
     }
     public void proximaTela(View view){
 
-        Intent intent = new Intent(this, terceiractivity.class);
+        Intent intent = new Intent(this, segundactivity.class);
         startActivity(intent);
