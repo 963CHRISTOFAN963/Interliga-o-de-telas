@@ -11,11 +11,11 @@ public class segundaactivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_segundaactivity);
+        setContentView(R.layout.activity_segundactivity);
     }
 
     public void proximaTela1(View view) {
-        Intent intent = new Intent(this, terceiraactivity.class);
+        Intent intent = new Intent(this, terceiractivity.class);
         startActivity(intent);
     }
 }
