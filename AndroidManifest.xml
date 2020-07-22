@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
    
-        <activity android:name=".quartactivity" />
+        <activity android:name=".quartactivity" /> </activity>
         <activity android:name=".terceiractivity" />
         <activity android:name=".segundactivity" />
         <activity android:name=".primeiratela" />
